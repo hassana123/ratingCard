@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    color: #fff;
+    background-color:hsl(216, 12%, 8%) ;
+}
+.rating-container{
+    width: 25%;
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2% 1%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-color: hsl(213, 19%, 18%);
+}
+.thank-you-container{
+    display: none;
+    width: 25%;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2% 1%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-color: hsl(213, 19%, 18%);
+}
+.content{
+    margin: auto;
+    width: 95%;
+    font-size: 15px;
+
+}
+
+.thank-you-container .img img{
+    margin-bottom: 8%;
+    
+}
+
+.content .logo img{
+    margin-bottom: 5%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:hsl(213, 8%, 26%);
+}
+.content .text h1{
+    margin-bottom: 5%;
+    
+}
+.content .thank-you-text h1{
+    margin-bottom: 5%;
+}
+.content .output p{
+    margin-bottom: 5%;
+}
+.content .text p{
+    margin-bottom: 8%;
+    color: hsl(217, 12%, 63%);
+}
+.content .rating{
+
+    margin-bottom: 10%;
+}
+.radio-label:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+.radio-label:active{
+    background-color:hsl(217, 12%, 63%) ;
+}
+.content .submit{
+    width: 100%;
+}
+.radio-input{
+    display: none;
+}
+.form .rating{
+    display: flex;
+    justify-content: space-between;
+}
+.radio-label{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 100%;
+    background-color: hsl(213, 8%, 26%);
+    display: block;
+    cursor: pointer;
+}
+.rate-output p{
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 10%;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 8%, 26%);
+}
+
+.content .submit button{
+    color: #fff;
+    border: none;
+    width: 96%;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    background-color: hsl(25, 97%, 53%);
+}
+.content .submit button:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+.attribution a{
+    color: hsl(25, 97%, 53%);
+    text-decoration: none;
+}
+
+@media (max-width:910px) {
+    .rating-container{
+        width: 50%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 50%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+@media (max-width:455px) {
+    .rating-container{
+        width: 90%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 90%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+@media (max-width:375px) {
+    .rating-container{
+        width: 95%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 95%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
