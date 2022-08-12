@@ -116,6 +116,28 @@ body{
     text-decoration: none;
 }
 
+@media (max-width:1115px) {
+    .rating-container{
+        width: 30%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 30%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+
 @media (max-width:910px) {
     .rating-container{
         width: 50%;
@@ -137,6 +159,28 @@ body{
     
     
 }
+@media (max-width:575px) {
+    .rating-container{
+        width: 80%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 80%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+
 @media (max-width:455px) {
     .rating-container{
         width: 90%;
