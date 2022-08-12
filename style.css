@@ -123,6 +123,7 @@ body{
         margin: auto;
         padding: 5% 2%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     .thank-you-container{
@@ -131,6 +132,7 @@ body{
         border-radius: 15px;
         margin: auto;
         padding: 5% 2%;
+        margin-bottom: 2%;
         margin-top: 10%;
         background-color: hsl(213, 19%, 18%);
     }
@@ -138,13 +140,15 @@ body{
     
 }
 
-@media (max-width:910px) {
+
+@media (max-width:1010px) {
     .rating-container{
-        width: 50%;
+        width:50%;
         border-radius: 15px;
         margin: auto;
         padding: 5% 2%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     .thank-you-container{
@@ -154,6 +158,32 @@ body{
         margin: auto;
         padding: 5% 2%;
         margin-top: 10%;
+        margin-bottom: 2%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+
+
+@media (max-width:910px) {
+    .rating-container{
+        width: 50%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 50%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 5% 2%;
+        margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     
@@ -166,6 +196,7 @@ body{
         margin: auto;
         padding: 5% 2%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     .thank-you-container{
@@ -175,6 +206,7 @@ body{
         margin: auto;
         padding: 5% 2%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     
@@ -188,6 +220,7 @@ body{
         margin: auto;
         padding: 15% 5%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     .thank-you-container{
@@ -197,6 +230,7 @@ body{
         margin: auto;
         padding: 15% 5%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     
@@ -209,6 +243,7 @@ body{
         margin: auto;
         padding: 15% 5%;
         margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     .thank-you-container{
@@ -218,6 +253,30 @@ body{
         margin: auto;
         padding: 15% 5%;
         margin-top: 10%;
+        margin-bottom: 2%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    
+    
+}
+@media (max-width:300px) {
+    .rating-container{
+        width: 100%;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .thank-you-container{
+        width: 100%;
+        text-align: center;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15% 5%;
+        margin-top: 10%;
+        margin-bottom: 2%;
         background-color: hsl(213, 19%, 18%);
     }
     
